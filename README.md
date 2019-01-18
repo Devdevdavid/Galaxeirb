@@ -1,5 +1,7 @@
 # GalaXeirb - Collision intergalactique CUDA
 
+![Alt text](img/Galaxeirb_logo.png "Logo de Galaxeirb")
+
 ## Présentation
 Ce projet a pour but de nous familiariser avec l'utilisation de la technologie CUDA. Le principe consiste à simuler une collision entre deux galaxies. Chacune d'elles est composée d'entité avec une masse, une vélocité et une position. Calculer les interactions entre-elles nécessite une puissance de calcul plus importante qu'un simple CPU car la complexité augmente au carré en fonction du nombre d'entité.
 
@@ -89,3 +91,7 @@ Nous supposons que tous les blocs demandent des accès mémoires qui ralentissen
 * Exécuter make_a_move() sur tous les blocs disponibles
 * Utiliser la mémoire constante pour les masses
 * Approfondir les recherches sur l'utilisation des accès mémoire "Single Read"
+
+## Photos
+![Alt text](img/Galaxeirb_screenshot_home.png "Un rendu de l'univers")
+![Alt text](img/Tie_fighter.png "Un Tie Fighter dans l'univers")
