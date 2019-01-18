@@ -40,6 +40,7 @@ Un fichier LOG est créé (galaxeirb.log), il indiquera les éventuelles erreurs
 
 ## Fichier Dubinski
 Les informations concernant les entités (Masse, position, vélocité) sont stockées dans les fichiers ./ressources/dubinskiX.tab où X est un chiffre qui indique le nombre d'entité contenues dans le fichier.
+
 | Indicateur | NB entités |
 | --------- | --- |
 | 1 | 81920 |
@@ -49,6 +50,7 @@ Les informations concernant les entités (Masse, position, vélocité) sont stoc
 | 5 | 5121 |
 | 6 | 3 |
 | 7 | 128 |
+
 
 ## Les commandes
 L'interface utilisateur est dotée de plusieurs commande qui permettent d'interagir avec le programme, voici la liste :
@@ -70,6 +72,7 @@ L'interface utilisateur est dotée de plusieurs commande qui permettent d'intera
 | --------- | --- |
 | 1 | 100 |
 | 4 | 150 |
+
 Résultats surprenant dans ce second cas, on s'attend à avoir un ratio proche de x4.
 Nous supposons qu'il manque une définition des affinités CPU pour exécuter les threads sur 4 coeurs
 
@@ -78,6 +81,7 @@ Nous supposons qu'il manque une définition des affinités CPU pour exécuter le
 | ------- | --------- | --- |
 | 1 | 1024 | 500 |
 | 192 | 6 | 80 |
+
 Nous supposons que tous les blocs demandent des accès mémoires qui ralentissent le système.
 
 ## Todos
